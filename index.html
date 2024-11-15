@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <style>
+    .option {
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin: 5px;
+      cursor: pointer;
+      width: 100px;
+      text-align: center;
+      border-radius: 5px;
+    }
+    .correct {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    .incorrect {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+    #score {
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .question-container {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>Quiz</h2>
+
+  <div id="question-container-0" class="question-container" style="display: block;">
+    <h3>What is the capital of France?</h3>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 0)">Berlin</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 0)">Madrid</div>
+    <div class="option" onclick="checkAnswer(this, 'correct', 0)">Paris</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 0)">Rome</div>
+  </div>
+
+  <div id="question-container-1" class="question-container">
+    <h3>What is 2 + 2?</h3>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 1)">3</div>
+    <div class="option" onclick="checkAnswer(this, 'correct', 1)">4</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 1)">5</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 1)">6</div>
+  </div>
+
+  <div id="question-container-2" class="question-container">
+    <h3>What is the largest planet in our Solar System?</h3>
+    <div class="option" onclick="checkAnswer(this, 'correct', 2)">Jupiter</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 2)">Earth</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 2)">Mars</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 2)">Venus</div>
+  </div>
+
+  <div id="question-container-3" class="question-container">
+    <h3>Who wrote 'To Kill a Mockingbird'?</h3>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 3)">Mark Twain</div>
+    <div class="option" onclick="checkAnswer(this, 'correct', 3)">Harper Lee</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 3)">Ernest Hemingway</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 3)">F. Scott Fitzgerald</div>
+  </div>
+
+  <div id="question-container-4" class="question-container">
+    <h3>What is the chemical symbol for water?</h3>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 4)">CO2</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 4)">O2</div>
+    <div class="option" onclick="checkAnswer(this, 'correct', 4)">H2O</div>
+    <div class="option" onclick="checkAnswer(this, 'incorrect', 4)">NaCl</div>
+  </div>
+
+  <p id="score">Score: 0</p>
+
+  <script>
+    let score = 0;
+    let currentQuestion = 0;
+    const totalQuestions = 5;
+
+    function checkAnswer(option, answer, questionIndex) {
+      if (answer === 'correct') {
+        option.classList.add('correct');
+        score += 1; // Add 1 for correct answer
+      } else {
+        option.classList.add('incorrect');
+        score -= 0.4; // Subtract 0.4 for incorrect answer
+      }
+      document.getElementById("score").innerText = "Score: " + score.toFixed(1);
+
+      // Disable all options for this question
+      const options = document.querySelectorAll(`#question-container-${questionIndex} .option`);
+      options.forEach(opt => opt.onclick = null);
+
+      // Move to the next question after a delay
+      setTimeout(() => {
+        document.getElementById(`question-container-${questionIndex}`).style.display = 'none';
+        currentQuestion++;
+        if (currentQuestion < totalQuestions) {
+          document.getElementById(`question-container-${currentQuestion}`).style.display = 'block';
+        } else {
+          alert("Quiz finished! Your final score is: " + score.toFixed(1));
+        }
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
