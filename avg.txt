@@ -1,0 +1,200 @@
+<div id="question-container-1" class="question-container" style="display: block;">
+  <h3>1. Vibhor obtained 66, 74, 55, 92, 79 (out of 100) in English, Maths, Physics, Chemistry and Biology. What's his average marks?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 75%</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 69%</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C. 73.2%</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 76%</div>
+</div>
+<div id="question-container-2" class="question-container" style="display: block;">
+  <h3>2. In Mahaprasad’s opinion, his weight is greater than 55 kg but less than 62 kg. His father does not agree with Mahaprasad and he thinks that Mahaprasad’s weight is greater than 50 kg but less than 60 kg. His sister’s view is that his weight can't be greater than 58 kg. If all of them are correct in their estimation, what is the average of different probable weights of Mahaprasad   
+?</h3>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">A. 56.5 kg</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 68 kg</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 69 kg</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. Data inadequate</div>
+</div>
+<div id="question-container-3" class="question-container" style="display: block;">
+  <h3>3. The average of 15 numbers is zero. Of them, at the most, how many may be greater than zero?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 0</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 1</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 10</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">D. 14</div>
+</div>
+<div id="question-container-4" class="question-container" style="display: block;">
+  <h3>4. Find the average of all the numbers between 8 and 55 which are divisible by 7.</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 17</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">B. 31.5</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 34</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 44</div>
+</div>
+<div id="question-container-5" class="question-container" style="display: block;">
+  <h3>5. The average of first five multiples of 5 is:</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 10</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 12</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C. 15</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 25</div>
+</div>
+<div id="question-container-6" class="question-container" style="display: block;">
+  <h3>6. The average of first seven prime numbers is:</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 8</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 9</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C.</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D.</div>
+</div>
+<div id="question-container-7" class="question-container" style="display: block;">
+  <h3>7. A scholar was asked to find the arithmetic mean of the numbers 4, 11, 7, 9, 16, 13, 8, 19, 18, 21, 12 and x. He found the mean to be 12. What should be the number in place of   
+x?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 3</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 17</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 31</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">D. 6</div>
+</div>
+<div id="question-container-8" class="question-container" style="display: block;">
+  <h3>8. The average of 3, 8, 9 and x is 6 and the average of 17, 2, 5, x and y is 8. What is the value of y?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 5</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">B. 12</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 20</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 30</div>
+</div>
+<div id="question-container-9" class="question-container" style="display: block;">
+  <h3>9. The average of the first 71 natural numbers is :</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 34.35</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 35</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 32</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">D. 36</div>
+</div>
+<div id="question-container-10" class="question-container" style="display: block;">
+  <h3>10. The mean of 13, 23, 33 , 43 , 53 is :</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 30</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 35</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C. 45</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 70</div>
+</div>
+<div id="question-container-11" class="question-container" style="display: block;">
+  <h3>11. The average of a non-zero number and its square is 7 times the number. The number is:</h3>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">A. 13</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 17</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 29</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 28</div>
+</div>
+<div id="question-container-12" class="question-container" style="display: block;">
+  <h3>12. The average of 5 consecutive numbers is 30. The largest of these numbers is:</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 20</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 22</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C. 32</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 40</div>
+</div>
+<div id="question-container-13" class="question-container" style="display: block;">
+  <h3>13. The average of seven consecutive odd numbers is 36. What is the difference between the highest and lowest numbers?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 2</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 5</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C. 12</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. Can't be determined</div>
+</div>
+<div id="question-container-14" class="question-container" style="display: block;">
+  <h3>14. The sum of four consecutive odd numbers is 30 more than the average of these numbers. What is the first of these numbers?</h3>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">A. 7</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 14</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 17</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. Data inadequate</div>
+</div>
+<div id="question-container-15" class="question-container" style="display: block;">
+  <h3>15. The mean of 13, 23, 33 , 43 , 53 is :</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 30</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 35</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C. 45</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 70</div>
+</div>
+<div id="question-container-16" class="question-container" style="display: block;">
+  <h3>16. The average age of 14 girls and their teacher's age is 15 years. If the teacher's age is excluded, the average reduces by 1. What is the teacher's age?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 32 years</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 30 years</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C. 29 years</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 35 years</div>
+</div>
+<div id="question-container-17" class="question-container" style="display: block;">
+  <h3>17. The average marks obtained by 40 students of a class is 86. If the 5 highest marks are removed, the average reduces by one mark. The average marks of the top 5 students is</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 92</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 96</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">C. 93</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 97</div>
+</div>
+<div id="question-container-18" class="question-container" style="display: block;">
+  <h3>18. A student finds the average of 10, 2 digit numbers. If the digits of one of the numbers is interchanged, the average increases by 3.6. The difference between the digits of the 2-digit numbers is</h3>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">A. 4</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 3</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 2</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 5</div>
+</div>
+<div id="question-container-19" class="question-container" style="display: block;">
+  <h3>19. Out of four numbers the average of the first three is 16 and that of the last three is 15. If the last number is 20 then the first number is</h3>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">A. 23</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 28</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 25</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 21</div>
+</div>
+<div id="question-container-20" class="question-container" style="display: block;">
+  <h3>20. The average weight of 17 boxes is 92 kg. If 18 new boxes are added, the new average increase by 3 kg. What will be the average weight of the 18 new boxes?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 98.8 kg</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">B. 97.8 kg</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 91.8 kg</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 92.8 kg</div>
+</div>
+<div id="question-container-21" class="question-container" style="display: block;">
+  <h3>21. The average temperature of Delhi in the first four days of June 2017 was 52 degrees.
+The average for the second, third, fourth and fifth days was 55 degrees. If the
+temperatures of the first and fifth days were in the ratio 5 : 7, then what was the
+temperature of Delhi on 5th June 2017?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 36 degrees</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 30 degrees</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 48 degrees</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 42 degrees</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">E. None of these</div>
+</div>
+<div id="question-container-22" class="question-container" style="display: block;">
+  <h3>22. The average weekly salary per head of all employees (supervisors and labourers) is Rs.
+100. The average weekly salary per head of all the supervisors is Rs. 600 while the
+average weekly salary per head of all the labourers is Rs. 75. Find the number of
+supervisors in the factory if there are 840 labourers in it.</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 46</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">B. 42</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 44</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 48</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">E. None of these</div>
+</div>
+<div id="question-container-23" class="question-container" style="display: block;">
+  <h3>23. The average score (runs/match) of Dravid before the start of World Cup was 35. In the
+world cup of 6 matches, his total score was 355 runs. Find the total number of
+matches played by him till date, if his new average after the series is 37.5.</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 55</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 56</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 52</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 58</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">E. 60</div>
+</div>
+<div id="question-container-24" class="question-container" style="display: block;">
+  <h3>24. City Pretoria is 7800 km directly to the east of city Canberra . A plane takes off from
+Canberra at 8:00am one day and lands at Pretoria at 3:00 am the next day. Five hours
+later it takes off from Pretoria and lands at 2:00 pm the same day at Canberra. There is
+a steady wind blowing at 25 km/hr from east to west. With respect to the wind, the
+plane cruises at the same uniform speed in either direction, but the speed with
+respect to the ground is different. What is the time difference between Canberra and
+Pretoria?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 5 hours</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 4 hours</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 3 hours</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 6 hours</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">E. 7 hours</div>
+</div>
+<div id="question-container-25" class="question-container" style="display: block;">
+  <h3>25. In a school, there are five friends- A, B, C, D and E. The weight of A is equal to the
+average weight of B, C and D and the weight of B is equal to the average weight of A, C
+and D. The average weight of A and C is equal to the average weight of C and D. E is 30
+kg heavier than C and the average weight of B and D is 60 kg. What is the average
+weight (in kgs) of A, B, C, D and E?</h3>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">A. 52.5</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">B. 56</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">C. 58.4</div>
+  <div class="option" onclick="checkAnswer(this, 'incorrect', 0); disableOptions(this);">D. 66</div>
+  <div class="option" onclick="checkAnswer(this, 'correct', 0); disableOptions(this);">E. None of these</div>
+</div>
